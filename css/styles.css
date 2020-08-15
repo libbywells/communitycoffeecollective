@@ -76,6 +76,47 @@ header h1 {
   font-size: 1.25em;
 }
 
+main {
+  background: linear-gradient(180deg, purple, plum);
+}
+
+#main-content {
+  padding: 30px;
+}
+
+#first-content p {
+  position: relative;
+  padding-top: 50px;
+}
+#main-content p {
+  font-family: "Architects Daughter", cursive;
+}
+#first-content p a {
+  color: rgb(225, 151, 235);
+}
+
+#first-content::before {
+  position: absolute;
+  left: 25%;
+  content: "changing the world...";
+  color: black;
+  padding: 10px;
+  font-family: "Fredericka the Great", cursive;
+}
+
+#first-content::after {
+  position: absolute;
+  right: 25%;
+  content: "...one cup at a time";
+  color: black;
+
+  font-family: "Fredericka the Great", cursive;
+}
+
+#second-content {
+  margin-top: 50px;
+}
+
 footer {
   background-color: plum;
   padding: 20px;
