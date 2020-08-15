@@ -77,42 +77,36 @@ header h1 {
 }
 
 footer {
-    background-color: plum;
-    padding: 20px;
+  background-color: plum;
+  padding: 20px;
 }
 
 .footer-content {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-.footer-content h3, .footer-content h4 {
-    font-family: 'Permanent Marker', cursive;
-    
-    font-size: 1.5em;
-    
+.footer-content h3,
+.footer-content h4 {
+  font-family: "Permanent Marker", cursive;
 
+  font-size: 1.5em;
 }
 
 #social ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .icon {
-    padding: 5px;
-    font-size: 1.4em;
-    color: purple;
-
+  padding: 5px;
+  font-size: 1.4em;
+  color: purple;
 }
 
 .icon:hover {
-    color: black;
-    cursor: pointer;
+  color: black;
+  cursor: pointer;
 }
-
-
-
