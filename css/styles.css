@@ -208,10 +208,32 @@ main h3 {
   font-weight: 600;
   font-size: 2.3em;
   opacity: 0;
+  transition: all 400ms ease-in-out;
   
   
 }
 
 .overlay:hover {
   opacity: 1;
+}
+
+
+ .about-content h4{
+  display: flex;
+  justify-content: center;
+}
+
+.about-content ol {
+  list-style: circle;
+}
+.about-content ul {
+  list-style: square;
+  margin-left: 50px;
+}
+
+ .about-content h4, .about-content {
+  
+  font-family: 'Amatic SC', cursive;
+font-size: 1.65em;
+
 }
