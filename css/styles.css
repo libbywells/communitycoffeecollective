@@ -194,4 +194,24 @@ main h3 {
   display: block;
   max-width: 100%;
   max-height: 100%;
+  
+}
+
+
+.overlay  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 600;
+  font-size: 2.3em;
+  opacity: 0;
+  
+  
+}
+
+.overlay:hover {
+  opacity: 1;
 }
