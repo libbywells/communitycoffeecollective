@@ -21,6 +21,10 @@ ul {
   margin: 0;
 }
 
+p {
+  font-family: "Architects Daughter", cursive;
+}
+
 nav ul {
   display: flex;
   flex-direction: column;
@@ -89,9 +93,7 @@ main {
   position: relative;
   padding-top: 50px;
 }
-p {
-  font-family: "Architects Daughter", cursive;
-}
+
 #first-content p a {
   color: rgb(225, 151, 235);
 }
@@ -114,6 +116,13 @@ p {
   font-family: "Fredericka the Great", cursive;
 }
 
+.image-wrap img,
+.image-wrap {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+  border-radius: 30%;
+}
 #second-content {
   margin-top: 50px;
 }
