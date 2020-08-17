@@ -180,45 +180,45 @@ main h3 {
 .menu-div {
   position: relative;
   width: 15em;
-  border: 2px solid pink;
+
   margin: 20px;
 }
 
 .img-wrapper {
   width: 14.5em;
-
-  margin: 0 auto;
 }
 
 .img-wrapper img {
   display: block;
   max-width: 100%;
   max-height: 100%;
-  
 }
 
-
-.overlay  {
+.overlay {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+  padding: 20px;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: black;
+
   color: white;
   font-family: "Covered By Your Grace", cursive;
   font-weight: 600;
   font-size: 2.3em;
   opacity: 0;
   transition: all 400ms ease-in-out;
-  
-  
 }
 
 .overlay:hover {
   opacity: 1;
 }
 
-
- .about-content h4{
+.about-content h4 {
   display: flex;
   justify-content: center;
 }
@@ -231,9 +231,8 @@ main h3 {
   margin-left: 50px;
 }
 
- .about-content h4, .about-content {
-  
-  font-family: 'Amatic SC', cursive;
-font-size: 1.65em;
-
+.about-content h4,
+.about-content {
+  font-family: "Amatic SC", cursive;
+  font-size: 1.65em;
 }
